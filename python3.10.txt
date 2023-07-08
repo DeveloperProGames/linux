@@ -1,0 +1,20 @@
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+
+apt list | grep python3.10
+sudo apt install python3.10
+
+# apt delate
+sudo apt remove --purge python3-apt
+sudo apt autoclean
+
+
+sudo apt install python3-apt
+
+sudo apt install python3.10-distutils
+
+sudo apt install curl
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3.10 get-pip.py
+
+sudo apt install python3.10-venv
